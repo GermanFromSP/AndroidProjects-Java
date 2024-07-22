@@ -8,4 +8,4 @@ __In this application I used the following technology stack:__
 - Retrofit 2
 - RxJava3
 
-![Alt Text](https://fastpic.org/view/123/2024/0722/_b4df7689759dd1f6677df3848b06d561.gif)
+![CatsApp](https://github.com/user-attachments/assets/030446fa-4c40-49e2-9edd-be39a407c804)
