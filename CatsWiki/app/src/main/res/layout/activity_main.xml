@@ -53,9 +53,6 @@
                 app:tabGravity="center"
                 app:tabIndicatorHeight="0dp" />
 
-
-            <!--            <include layout="@layout/breed_image" />-->
-
             <include layout="@layout/breed_attributes" />
 
             <include layout="@layout/breed_description" />
