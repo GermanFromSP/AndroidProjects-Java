@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AnimalsWiki</string>
+    <string name="affection_level">Affection Level:</string>
+    <string name="child_friendly">Child friendly:</string>
+    <string name="dog_friendly">Dog friendly:</string>
+    <string name="energy_level">Energy level:</string>
+    <string name="catswiki">CatsWiki.</string>
+</resources>
