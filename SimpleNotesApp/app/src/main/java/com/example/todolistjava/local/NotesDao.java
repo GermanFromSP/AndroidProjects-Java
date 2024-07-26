@@ -1,0 +1,24 @@
+package com.example.todolistjava.local;
+
+import androidx.lifecycle.LiveData;
+import androidx.room.Dao;
+import androidx.room.Insert;
+import androidx.room.Query;
+
+import com.example.todolistjava.Note;
+
+import java.util.List;
+
+import io.reactivex.rxjava3.core.Completable;
+
+@Dao
+public interface NotesDao {
+    @Query("SELECT * FROM notes")
+    LiveData<List<Note>> getNote();
+
+    @Insert
+    Completable add(Note note);
+
+    @Query("DELETE FROM notes WHERE id = :id")
+    Completable remove(int id);
+}

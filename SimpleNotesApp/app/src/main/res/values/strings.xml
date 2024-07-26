@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ToDo List Java</string>
+    <string name="hint">Ваша заметка:</string>
+    <string name="new_note">Новая заметка:</string>
+    <string name="text_priority">Приоритет:</string>
+    <string name="low">Низкий</string>
+    <string name="medium">Средний</string>
+    <string name="high">Высокий</string>
+    <string name="save">Сохранить</string>
+    <string name="toast_fill_in_the_field">Заполните все поля</string>
+</resources>
