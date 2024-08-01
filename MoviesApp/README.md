@@ -21,8 +21,7 @@ Here you can see all the information about the film in detail, including reviews
 
 | Reviews | Teasers/Trailers |
 | --------------- | --------------- |
-| 
-![reviews](https://github.com/user-attachments/assets/14584928-cf23-417b-8d95-9e0e6ff66bef) | ![teasers](https://github.com/user-attachments/assets/bdf8be83-e055-4643-847f-b2024d42e51c) |
+| ![reviews](https://github.com/user-attachments/assets/14584928-cf23-417b-8d95-9e0e6ff66bef) | ![teasers](https://github.com/user-attachments/assets/bdf8be83-e055-4643-847f-b2024d42e51c) |
 
 ## Add and remove movies to your favourite list:
 Add and remove movies from your favorites section
