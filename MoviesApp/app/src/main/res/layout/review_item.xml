@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardViewReview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="20dp"
+    app:cardCornerRadius="16dp"
+    app:cardUseCompatPadding="true"
+    tools:cardBackgroundColor="@color/gray">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+       >
+
+        <LinearLayout
+            android:id="@+id/review_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent">
+            <TextView
+                android:id="@+id/textViewAuthor"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                tools:text="Author name"
+                tools:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/like"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:layout_constraintEnd_toStartOf="@id/textViewLike"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/like_svgrepo_com" />
+
+            <TextView
+                android:id="@+id/textViewLike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:padding="3dp"
+                android:textColor="@android:color/holo_green_light"
+                android:shadowColor="#000000"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="5"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@id/dislike"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="17" />
+
+            <ImageView
+                android:id="@+id/dislike"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/dislike_svgrepo_com" />
+
+            <TextView
+                android:id="@+id/textViewDislike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp"
+                android:padding="3dp"
+                android:shadowColor="#000000"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="5"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="12" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textViewReviewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:paddingEnd="16dp"
+            android:textStyle="bold"
+            tools:text="Trailer title"
+            app:layout_constraintTop_toBottomOf="@id/review_header"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:textColor="@color/white" />
+
+        <TextView
+            android:maxLines="5"
+            android:ellipsize="end"
+            android:id="@+id/textViewReviewBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textViewReviewTitle"
+            tools:text="Review review review review review review review review review review review review review review" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

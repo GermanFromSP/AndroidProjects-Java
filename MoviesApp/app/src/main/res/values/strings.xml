@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Кинопоиск</string>
+    <string name="item_favourite">Избранное</string>
+    <string name="inem_mainmenu">Главная</string>
+    <string name="text_welcome">Добро пожаловать на Кинопоиск!</string>
+    <string name="top_today">Подборка для вас на сегодня:</string>
+    <string name="text_search">Что посмотрим?:</string>
+    <string name="text_find">Найти</string>
+    <string name="text_profind">Расширенный поиск</string>
+    <string name="text_favour">Ваши избранные фильмы:</string>
+    <string name="your_favourite_movies">Ваши избранные фильмы (%s):</string>
+    <string name="result_of_query">"Результат запроса (%s): "</string>
+    <string name="s">\"%s\"</string>
+    <string name="search_navigation_title">Поиск</string>
+    <string name="movie_description">Описание фильма</string>
+    <string name="movie_name">Название фильма</string>
+    <string name="favourite">Избранное</string>
+    <string name="snackbar_message">Проверьте ваше интернет-соединение</string>
+    <string name="reviews">Отзывы</string>
+    <string name="teasers">Тизеры и трейлеры:</string>
+    <string name="collapse">Свернуть</string>
+    <string name="expand">Развернуть</string>
+    <string name="watch_all_favourites">Cмотреть все</string>
+</resources>
