@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="text_password">Password:</string>
+    <string name="hint_your_email">Your email:</string>
+    <string name="logo_message">Message</string>
+    <string name="logo_new">New</string>
+    <string name="button_login">LOGIN</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="register">Register</string>
+    <string name="email_hint_registration">Email:</string>
+    <string name="name_hint_registration">Name:</string>
+    <string name="last_name_hint_registration">Last name:</string>
+    <string name="how_old_are_you">How old are you?</string>
+    <string name="registration">Registration</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="forgot_password_text">Forgot password?</string>
+    <string name="hint_forgot_password">Enter your email and we will send you a link to change your password.</string>
+    <string name="reset_password">reset password</string>
+    <string name="log_out">Log out</string>
+    <string name="your_message">Your message:</string>
+    <string name="your_email">Your email:</string>
+    <string name="your_password">Your password:</string>
+    <string name="your_name">Your name:</string>
+    <string name="age">Age:</string>
+    <string name="online">online</string>
+    <string name="offline">offline</string>
+    <string name="forgot_password_toast_message">We have sent an email with a link to the specified email address.</string>
+    <string name="please_fill_in_all_fields">Please fill in all fields</string>
+    <string name="registration_completed_successfully">Registration completed successfully!</string>
+</resources>
